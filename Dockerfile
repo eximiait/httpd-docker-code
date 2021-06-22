@@ -1,2 +1,2 @@
-FROM httpd:2.4.48-alpine
-COPY index.html /usr/local/apache2/htdocs/
+FROM quay.io/centos7/httpd-24-centos7:2.4
+COPY index.html /var/www/html/
